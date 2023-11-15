@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { AddGameFormType, GameContextActions, GameType } from '../types/game';
 import { DeleteHandlerType, AddGameHandlerType, AsyncHandlerType } from '../types/handlers';
-import GameService from '../sercices/gameService';
+import GameService from '../services/gameService';
 
 type UseGamesReturnType = {
   games: GameType[];
